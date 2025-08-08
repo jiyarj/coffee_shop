@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Menu - Coffee Shop</title>
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <!-- swiper css link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="logo">
+        <i class="fas fa-seedling"></i>
+        coffee
+      </div>
+
+      <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="index.html#about">about</a>
+        <a href="index.html#menu">menu</a>
+        <a href="index.html#review">review</a>
+        <a href="index.html#book">book</a>
+      </nav>
+
+      <a href="index.html#book" class="btn">book a table</a>
+    </header>
+
+    <!-- COFFEE MENU -->
+    <section class="menu" id="coffee-menu" style="padding-top: 12rem;">
+      <div class="heading">
+        <span>coffee menu</span>
+      </div>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="image/menu-1.png" alt="Espresso" />
+          </div>
+          <div class="content">
+            <h3>Espresso</h3>
+            <p>Rich and bold single shot of coffee, perfect for a quick energy boost.</p>
+            <span>$3.50</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image/menu-2.png" alt="Cappuccino" />
+          </div>
+          <div class="content">
+            <h3>Cappuccino</h3>
+            <p>Classic Italian coffee with steamed milk foam and a sprinkle of cocoa.</p>
+            <span>$4.25</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image/menu-3.png" alt="Latte" />
+          </div>
+          <div class="content">
+            <h3>Latte</h3>
+            <p>Smooth espresso with steamed milk and a light layer of foam.</p>
+            <span>$4.75</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image/menu-4.png" alt="Americano" />
+          </div>
+          <div class="content">
+            <h3>Americano</h3>
+            <p>Espresso shots with hot water, delivering a rich coffee flavor.</p>
+            <span>$3.75</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image/menu-5.png" alt="Mocha" />
+          </div>
+          <div class="content">
+            <h3>Mocha</h3>
+            <p>Chocolate and espresso blend with steamed milk and whipped cream.</p>
+            <span>$5.25</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image/menu-6.png" alt="Macchiato" />
+          </div>
+          <div class="content">
+            <h3>Macchiato</h3>
+            <p>Espresso "marked" with a dollop of steamed milk foam.</p>
+            <span>$4.00</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image/menu-1.png" alt="Cold Brew" />
+          </div>
+          <div class="content">
+            <h3>Cold Brew</h3>
+            <p>Smooth, refreshing coffee brewed cold for 12+ hours.</p>
+            <span>$4.50</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image/menu-2.png" alt="Frappuccino" />
+          </div>
+          <div class="content">
+            <h3>Frappuccino</h3>
+            <p>Blended iced coffee with milk and topped with whipped cream.</p>
+            <span>$5.75</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="image/menu-3.png" alt="Turkish Coffee" />
+          </div>
+          <div class="content">
+            <h3>Turkish Coffee</h3>
+            <p>Traditional finely ground coffee served in a small cup.</p>
+            <span>$3.25</span>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Take at Counter Message -->
+      <div style="text-align: center; margin-top: 5rem; padding: 3rem; background: rgba(68, 68, 51, 0.1); border-radius: var(--border-radius); border: var(--border);">
+        <h2 style="color: var(--main-color); font-size: 3rem; margin-bottom: 1rem;">
+          <i class="fas fa-coffee"></i> Take at Counter
+        </h2>
+        <p style="color: var(--main-color); font-size: 1.8rem; line-height: 1.8;">
+          All orders are prepared fresh and ready for pickup at our counter. <br>
+          Please wait for your order number to be called. <br>
+          <strong>Average wait time: 5-10 minutes</strong>
+        </p>
+        <div style="margin-top: 2rem;">
+          <a href="index.html" class="btn">back to home</a>
+          <a href="index.html#book" class="btn" style="margin-left: 1rem;">book a table</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ORDER SUCCESS MODAL -->
+    <div id="order-modal" class="modal">
+      <div class="modal-content" style="text-align: center;">
+        <span class="close" id="order-modal-close">&times;</span>
+        <h2 style="color: var(--main-color); font-size: 2.3rem; margin-bottom: 1.5rem;">
+          <i class="fas fa-check-circle" style="color: green;"></i> Ordered Successfully!
+        </h2>
+        <p style="font-size: 1.7rem; color: var(--main-color);">Please go to counter to collect your coffee.</p>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>our branches</h3>
+          <a href="https://www.google.com/maps/search/coffee+shops+in+india" target="_blank"><i class="fas fa-arrow-right"></i> india</a>
+          <a href="https://www.google.com/maps/search/coffee+shops+in+usa" target="_blank"><i class="fas fa-arrow-right"></i> USA</a>
+          <a href="https://www.google.com/maps/search/coffee+shops+in+france" target="_blank"><i class="fas fa-arrow-right"></i> france</a>
+          <a href="https://www.google.com/maps/search/coffee+shops+in+africa" target="_blank"><i class="fas fa-arrow-right"></i> africa</a>
+          <a href="https://www.google.com/maps/search/coffee+shops+in+japan" target="_blank"><i class="fas fa-arrow-right"></i> japan</a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="index.html#home"><i class="fas fa-arrow-right"></i> home</a>
+          <a href="index.html#about"><i class="fas fa-arrow-right"></i> about</a>
+          <a href="index.html#menu"><i class="fas fa-arrow-right"></i> menu</a>
+          <a href="index.html#review"><i class="fas fa-arrow-right"></i> review</a>
+          <a href="index.html#book"><i class="fas fa-arrow-right"></i> book</a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="https://wa.me/51956262626"><i class="fas fa-phone"></i> +123-456-7890</a>
+          <a href="https://wa.me/51956262626"><i class="fas fa-phone"></i> +111-222-3333</a>
+          <a href="mailto:jiyasolanki799@gmail.com"><i class="fas fa-envelope"></i> coffee@gmail.com</a>
+          <a href="https://www.google.com/maps/search/coffee+shops+in+japan" target="_blank"><i class="fas fa-envelope"></i> Perú, Lima</a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="https://www.facebook.com/">
+            <i class="fab fa-facebook-f"></i> facebook</a>
+          <a href="https://www.twitter.com/">
+            <i class="fab fa-twitter"></i> twitter</a>
+          <a href="https://www.instagram.com/">
+            <i class="fab fa-instagram"></i> instagram</a>
+          <a href="https://www.linkedin.com/">
+            <i class="fab fa-linkedin"></i> linkedin</a>
+          <a href="https://www.twitter.com/">
+            <i class="fab fa-twitter"></i> twitter</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- swiper js link -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+    <script>
+      // Order modal functionality
+      const orderModal = document.getElementById('order-modal');
+      const orderModalClose = document.getElementById('order-modal-close');
+      const addToCartBtns = document.querySelectorAll('.btn[href="#"]');
+
+      addToCartBtns.forEach(btn => {
+        btn.addEventListener('click', function(e) {
+          if (btn.textContent.trim().toLowerCase() === 'add to cart') {
+            e.preventDefault();
+            orderModal.style.display = 'block';
+          }
+        });
+      });
+
+      orderModalClose.onclick = function() {
+        orderModal.style.display = 'none';
+      };
+      window.onclick = function(event) {
+        if (event.target === orderModal) {
+          orderModal.style.display = 'none';
+        }
+      };
+      // Optional: auto-close after 2 seconds
+      orderModal.addEventListener('show', function() {
+        setTimeout(() => {
+          orderModal.style.display = 'none';
+        }, 2000);
+      });
+    </script>
+  </body>
+</html>
